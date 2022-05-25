@@ -10,9 +10,9 @@
     <input type="button" id="button" class="btn btn-primary" value="Enter">
     {% endbuttons %}
 </div>
-{% block content %}
+{% endblock content %}
 
 {% bootstrap_javascript jquery='full' %}
 {% block js %}
-<script src="{% static 'js/index.js %}"></script>
+<script src="{% static 'js/index.js' %}"></script>
 {% endblock js %}
